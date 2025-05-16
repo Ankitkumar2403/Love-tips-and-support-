@@ -1,1 +1,57 @@
-...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Share Your Love Story - LoveTipWithAI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #ffe6e6;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #cc0052;
+    }
+    form {
+      background: white;
+      max-width: 500px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #999;
+    }
+    input, textarea {
+      width: 100%;
+      margin: 10px 0;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      background-color: #cc0052;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #99003d;
+    }
+  </style>
+</head>
+<body>
+  <h1>Share Your Love Story</h1>
+  <p>We care about your feelings. Tell us your story, and we will help you get your love back.</p>
+  
+  <form action="https://formspree.io/f/mnqejezy" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="story" rows="6" placeholder="Write your love story..." required></textarea>
+    <button type="submit">Submit Story</button>
+  </form>
+</body>
+</html>
